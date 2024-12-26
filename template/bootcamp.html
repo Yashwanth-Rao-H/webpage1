@@ -1,0 +1,382 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="{% static 'bootcamp.css' %}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🦁 Sheryians Coding School</div>
+        <ul class="nav-links">
+            <li><a href="{% url 'yash:home' %}">Home</a></li>
+            <li><a href="{% url 'yash:course' %}">Course</a></li>
+            <li><a href="{% url 'yash:bootcamp' %}">Bootcamp</a></li>
+            <li><a href="{% url 'yash:callback' %}">Request Call Back</a></li>
+            <li><a href="{% url 'yash:sign' %}">Sign In</a></li>
+        </ul>
+    </nav>
+<div id="div1">
+    <h1 style="color: white; margin-left: 100px; font-size: 40px;">6 months In-House <br>
+        Bootcamp <br>
+        programme-Kodr.
+    </h1>
+    <input style="margin-left: 100px;" type="button" value="Start On: 11 Nov 2024">
+    <input style="margin-left: 10px;" type="button" value="Placement Assistance ">
+
+    <h1 style="margin-left: 100px; color: white;">Price ₹ 59000 <span style="font-size: 15px;">[50,000 + 18% Gst]</span></h1>
+
+    <input style="width: 150px; height: 50px; font-size: 18px; margin-left: 100px; background-color: green; color: white;" type="button" value="Seats Are Full" disabled>
+</div>
+<div id="div2">
+    <iframe width="600" height="360" src="https://www.youtube.com/embed/pOGLAlGCKFE?si=-8BVsb3Py4zKLQBF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div id="div3">
+    <h1 style="color: white; font-size: 80px; margin-left: 100px;">we believe in, <br>
+    <span style="color: aquamarine;">Consistency.</span>NO shortcuts.</h1>
+    <input class="int1"  type="button" value="MERN Stack⚡">
+    <input class="int1"  type="button" value="Data Structure&Algorithm🔥">
+    <input class="int1"  type="button" value="DBMS-SQL✌️">
+    <input class="int1"  type="button" value="CORE CS Subjects⚙️">
+    <input class="int1"  type="button" value="Placement Assistance💸">
+</div>
+    
+<div id="div4"> 
+    <h1 style="font-size: 120px; color: white; margin-left: 100px;">
+        Non-Stop <br>
+        <span style="color: aquamarine;">5 Hours</span>  <br>
+        Coding <span style="font-size: 60px; color: white;">[Everyday]</span>
+    </h1>
+    <h1 style="font-size: 25px; color: white; margin-left: 100px;margin-top: -50px;">Monday To Saturday. 11:00 AM To 4:00PM</h1>
+</div>
+
+
+<div id="div5">
+    <h1 style="font-size: 150px; color: white; margin-left: 100px; margin-top: 100px;">
+        Dominate. <br>
+        <span style="color: rgb(103, 98, 98); font-size: 70px; margin-top: -200px;">From Start To Victory</span>
+    </h1>
+</div>
+
+
+
+<div class="section">
+    <div class="heading">HTML/CSS</div>
+    <div class="content">
+      <ul>
+        <li style="font-size: 30px;">HTML Basics</li>
+        <li style="font-size: 30px;">Semantic HTML</li>
+        <li style="font-size: 30px;">Forms and Validation</li>
+        <li style="font-size: 30px;">Multimedia Elements (Audio, Video)</li>
+        <li style="font-size: 30px;">CSS Fundamentals</li>
+        <li style="font-size: 30px;">CSS Box Model</li>
+        <li style="font-size: 30px;">Flexbox</li>
+        <li style="font-size: 30px;">Grid Layout</li>
+        <li style="font-size: 30px;">CSS Animations</li>
+        <li style="font-size: 30px;">Transitions</li>
+        <li style="font-size: 30px;">Keyframe Animations</li>
+        <li style="font-size: 30px;">Responsive Design</li>
+        <li style="font-size: 30px;">Media Queries</li>
+        <li style="font-size: 30px;">CSS Variables</li>
+        <li style="font-size: 30px;">CSS Frameworks (TailwindCSS)</li>
+      </ul> 
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="heading">JavaScript</div>
+    <div class="content">
+        <ul>
+            <li style="font-size: 30px;">Introduction to JavaScript
+            </li>
+            <li style="font-size: 30px;">Functions (Declaration, Expression, Arrow)</li>
+            <li style="font-size: 30px;">Scope (Global, Local, Block)
+            </li>
+            <li style="font-size: 30px;">Closures
+            </li>
+            <li style="font-size: 30px;">
+                Callbacks
+                </li>
+            <li style="font-size: 30px;">Promises
+            </li>
+            <li style="font-size: 30px;">Async/Await
+            </li>
+            <li style="font-size: 30px;">Error Handling
+            </li>
+            <li style="font-size: 30px;">Event Loop</li>
+            <li style="font-size: 30px;">DOM Manipulation
+            </li>
+            <li style="font-size: 30px;">Event Handling
+            </li>
+            <li style="font-size: 30px;">Object-Oriented Programming (OOP)</li>
+            <li style="font-size: 30px;">Prototypes
+            </li>
+            <li style="font-size: 30px;">Inheritance
+            </li>
+            <li style="font-size: 30px;">'this' Keyword
+            </li>
+            <li style="font-size: 30px;">ES6 Features (Destructuring, Spread Operator)
+            </li>
+            <li style="font-size: 30px;">JSON Handling
+
+            </li>
+            <li style="font-size: 30px;">
+                Fetch API
+            </li>
+          </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="heading">React JS</div>
+    <div class="content">
+        <ul>
+            <li>JSX</li>
+            <li>Functional Components</li>
+            <li>Class Components</li>
+            <li>Props</li>
+            <li>State</li>
+            <li>useState Hook</li>
+            <li>useEffect Hook</li>
+            <li>React Router</li>
+            <li>Context API</li>
+            <li>Redux</li>
+            <li>Hooks (useMemo, useCallback, useRef)</li>
+            <li>Form Handling</li>
+            <li>Two-Way Binding</li>
+            <li>Higher-Order Components</li>
+            <li>Lazy Loading</li>
+            <li>Component Lifecycle</li>
+          </ul>
+    
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="heading">Data Structures and Algorithms (DSA)</div>
+    <div class="content">
+        <ul>
+            <li>Arrays</li>
+            <li>Linked Lists</li>
+            <li>Stacks</li>
+            <li>Queues</li>
+            <li>Hash Tables</li>
+            <li>Trees (Binary, BST)</li>
+            <li>Graphs</li>
+            <li>Sorting Algorithms</li>
+            <li>Searching Algorithms</li>
+            <li>Dynamic Programming</li>
+            <li>Greedy Algorithms</li>
+            <li>Backtracking</li>
+            <li>Recursion</li>
+            <li>Time Complexity</li>
+            <li>Space Complexity</li>
+          </ul>
+    
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="heading">Node.js and Express [Backend]</div>
+    <div class="content">
+        <ul>
+            <li>HTTP Server</li>
+            <li>File Handling</li>
+            <li>Routing in Express</li>
+            <li>REST APIs</li>
+            <li>Middleware</li>
+            <li>Authentication (JWT, OAuth)</li>
+            <li>Session Management</li>
+            <li>Cookies</li>
+            <li>Error Handling</li>
+            <li>WebSockets (Socket.io)</li>
+            <li>File Uploads</li>
+            <li>API Rate Limiting</li>
+            <li>CORS</li>
+            <li>Testing (Mocha, Chai)</li>
+            <li>Security (XSS, CSRF, DOS)</li>
+            <li>Environment Variables</li>
+            <li>Debugging</li>
+          </ul>
+    
+
+    
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="heading">Databases</div>
+    <div class="content">
+        <ul>
+            <li>Mongo DB</li>
+            <li>Aggregation in MongoDB
+            </li>
+            <li>Indexing
+            </li>
+            <li>Relationships in MongoDB</li>
+            <li>Redis
+            </li>
+            <li>Replication
+            </li>
+            <li>Sharding
+            </li>
+            <li>MySQL
+            </li>
+            <li>Queries
+            </li>
+            <li>Joins in MySQL
+            </li>
+            <li>Normalization</li>
+            <li>ACID Properties</li>
+            <li>Transactions
+            </li>
+            <li>Stored Procedures & Function</li>
+            <li>Triggers
+            </li>
+            <li>Optimization</li>
+            <li>Database Design</li>
+          </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="heading">Git/GitHub</div>
+    <div class="content">
+        <ul>
+            <li>Version Control Basics
+            </li>
+            <li>Branching and Merging
+            </li>
+            <li>Pull Requests
+
+            </li>
+            <li>Git Workflows (GitFlow)
+            </li>
+            <li>Conflict Resolution
+
+            </li>
+            <li>GitHub Collaboration
+            </li>
+            <li>CI/CD with GitHub Actions
+            </li>
+            
+          </ul>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="heading">DevOps and Deployment</div>
+    <div class="content">
+        <ul>
+            <li>Node.js Deployment (Heroku, AWS)
+            </li>
+            <li>CI/CD Pipelines
+
+            </li>
+            <li>Docker
+
+
+            </li>
+            <li>Containerization
+            </li>
+            <li>Versioning
+
+            </li>
+            <li>Load Balancing
+            
+          </ul>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="heading">Additional Topics
+    </div>
+    <div class="content">
+        <ul>
+            <li>Operating System
+
+            </li>
+            <li>
+                Computer Network
+                
+
+            </li>
+            <li>SEO Principles</li>
+            <li>GSAP Animations
+
+            </li>
+            <li>Framer Motion
+
+
+            </li>
+            <li>Al. Tools (ChatGPT, GitHub Copilot)</li>
+
+            <li>Resume building
+            </li>
+            <li>Interview Preparation
+            </li>
+
+            <li>Mock Interview</li>
+            
+          </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="details">
+    <div class="data">
+        <h1 style="width: 100px; height: 100px; margin-top: 80px; margin-left: 30px; font-size: 50px;">🦁</h1>
+        <h1 style="color: white; font-size: 15px;margin-top: -60px;margin-left: 30px;">Let's connect with our socials</h1>
+        <h6><img style="width: 250px; height: 55px; margin-top: -20px; margin-left: 20px;"  src="../static/Screenshot 2024-12-19 094533.png" alt=""></h6>
+    </div>
+    <div class="data">
+        <h3 style="color: white; margin-left: 50px; font-size: 20px; margin-top: 80px; ">COMPANY</h3>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px;margin-top: 15px; ">About Us</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">Support</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">Privacy Policy</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">Terms and Conditions</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">Pricing and Refund</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">Hire From Us</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">Bug Bounty</h6>
+    </div>
+    <div class="data">
+        <h3 style="font-size: 20px; color: white; margin-top: 80px; margin-left: 50px;"> COMMUNITY</h3>
+        <h6 style="font-size: 15px; color: white; margin-top: 15px; margin-left: 50px;">intertia</h6>
+        <h6 style="font-size: 15px; color: white; margin-top: -15px; margin-left: 50px;">Discord</h6>
+    </div>
+    <div class="data">
+        <h3 style="color: white; margin-left: 50px; font-size: 20px; margin-top: 80px; ">Get In Touch</h3>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px;margin-top: 15px; ">+91 8109161752</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">+919691778470</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">hello@Sheryians.com</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">23-B,indrapuriSectorC,</h6>
+        <h6 style="color: white; margin-left: 50px; font-size: 15px; margin-top:-15px;">Bhopal(MP),462021</h6>
+    </div>
+</div>
+
+<div>
+    <h1 style="color: white; font-size: 17px; margin-left: 500px; margin-top: 50px;">
+        copyright <span style="font-size: 17px; color: white;">©️</span> 2024 Sheryians Pvt.Ltd. <br>
+        <span style="margin-left: 70px;">All Rights Reserved</span>
+    </h1>
+</div>
+
+
+<script src="{% static 'bootcamp.js' %}"></script>
+</body>
+</html>

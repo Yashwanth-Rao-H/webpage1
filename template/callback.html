@@ -1,0 +1,25 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Callback</title>
+  <link rel="stylesheet" href="{% static 'callback.css' %}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🦁 Sheryians Coding School</div>
+        <ul class="nav-links">
+            <li><a href="{% url 'yash:home' %}">Home</a></li>
+            <li><a href="{% url 'yash:course' %}">Course</a></li>
+            <li><a href="{% url 'yash:bootcamp' %}">Bootcamp</a></li>
+            <li><a href="{% url 'yash:callback' %}">Request Call Back</a></li>
+            <li><a href="{% url 'yash:sign' %}">Sign In</a></li>
+        </ul>
+    </nav>
+
+  <script src="{% static 'callback.js' %}">
+  </script>
+</body>
+</html>
